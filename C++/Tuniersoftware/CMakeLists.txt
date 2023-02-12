@@ -5,7 +5,7 @@ project(Tuniersoftware LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(Tuniersoftware main.cpp)
+add_executable(Tuniersoftware main.cpp SQL/database.cpp)
 
 install(TARGETS Tuniersoftware
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
